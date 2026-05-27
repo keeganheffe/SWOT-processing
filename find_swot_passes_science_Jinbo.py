@@ -55,7 +55,7 @@ args = parser.parse_args()
 # cycles = [1,31]
 # output_filename = 'science_passIDs_MAB_GoM.png'# subplot with individual passIDs
 
-check the command line arguments
+# check the command line arguments
 # if sw_corner is None or ne_corner is None or output_filename is None:
     parser.print_help('Example: \n python find_swot_timing_science.py -sw_corner -130.0 35.0 -ne_corner -125.0 40.0 -output_filename /tmp/test.png')
     exit()
