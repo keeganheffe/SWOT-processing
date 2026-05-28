@@ -43,9 +43,9 @@ import xarray as xr
 import warnings
 warnings.filterwarnings('ignore')
 
-import sys
-sys.path.append("/home/sryan/python/")  # add custom utilities path
-from utils.plot_utils import finished_plot
+# import sys
+# sys.path.append("/home/sryan/python/")  # add custom utilities path
+# from utils.plot_utils import finished_plot
 
 # extract ice shelves for plotting
 from cartopy.feature import NaturalEarthFeature
