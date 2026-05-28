@@ -62,7 +62,7 @@ ice_shelves = NaturalEarthFeature(
 # =============================================================================
 # Load bathymetry data (ETOPO1). Subsetting can be used for faster plotting.
 bathy = xr.open_dataset(
-    "/c/Users/keega/OneDrive/Academic-Personal/WHOI/SWOT/data/ETOPO1_Bed_g_gmt4.grd"
+    "/c/Users/keega/OneDrive/Academic-Personal/WHOI/SWOT/ETOPO1_Bed_g_gmt4.grd"
 ).sel(y=slice(-80,-60)).load()
 
 
